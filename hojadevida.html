@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseñohoja.css">
+    <title>Hoja de vida</title>
+</head>
+<body>
+    
+
+
+    
+<style>
+
+
+/*body{
+    background: linear-gradient(150deg, #dd0404,  #14da8e, #a3e704);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite; 
+    
+}*/
+body
+        {
+            background: url(imagenes/fondo.jpg);
+            background-size: 100%;
+        }
+#principal{
+    border: solid 3px rgb(0, 0, 0);
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    
+   
+}
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+fieldset
+{
+    margin-bottom: 60px;
+    border: solid 2px black;
+}
+legend
+{
+   border: solid 1px black; 
+   padding: 13px;
+   font-weight: bold;
+   border-radius: 15px;
+   background-color: lightblue;
+}
+#fotoperfil{
+    margin: 5px;
+    border: solid 4px black;
+}
+#principal li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    
+}
+
+</style>
+
+
+    <div id="principal">
+        <img src="./imagenes/wpw.png" id="fotoperfil"  width="150" alinge="left">
+        <h2>Mateo Pacheco Olarte</h2>
+        <br><br><br>
+
+        <fieldset>
+            <legend>Datos generales</legend>
+            <ul>
+                <li>Cedula: 1001576988</li>
+                <li>Direccion: cl 53 a # 64 - 80</li>
+                <li>Celular: 3012572237</li>
+                <li>Gmail: mateopacheco592@gmail.com</li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Estudios Realizados</legend>
+                <ul>
+                    <li>Estudios Primarios: Institucion educativa pablo neruda</li>
+                    <li>Estudios Secuandarios: Institucion educativa preunivertario de bello</li>
+                    <li>Estudios Superiores: Institucion Universitaria De Evigado "En curso"</li>
+
+                </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Idiomas</legend>
+            <ul>
+                <li>Español</li>
+                <li>Ingles</li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Habilidades</legend>
+            <ul>
+                <h1>C#</h1> <img src="./imagenes/c++.png" height="150" width="150" >
+                <h1>Java</h1> <img src="./imagenes/Java.jpg" height="150" width="150" >
+                <h1>Sql</h1> <img src="./imagenes/sql.png" height="150" width="150" >
+                
+            </ul>
+        </fieldset>
+    </div>
+  
+</body>
+</html>
